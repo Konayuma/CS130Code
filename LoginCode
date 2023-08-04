@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string Identifier;
+    cout << "Enter your User Name Number: " << endl;
+    cin >> Identifier;
+
+    if (Identifier == "Admin") {
+        cout << "You are welcome 1" << endl;
+    }
+    else if (Identifier == "Student") {
+        cout << "You are welcome 2" << endl;
+    }
+    else if (Identifier == "Lecturer") {
+        cout << "You are welcome 3" << endl;
+    }
+    else {
+        cout << "You have entered the wrong details" << endl;
+    }
+
+    return 0;
+}
